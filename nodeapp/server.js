@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
  app.get('/', function (req, res) {
   /* res.sendFile(path.join(___dirname + '/candidateInfo.html'));*/
-   res.sendFile(__dirname + '/candidateInfo.html');
+   res.sendFile(__dirname + '/public/candidateInfo.html');
 });
  
 
